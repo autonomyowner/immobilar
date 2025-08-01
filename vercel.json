@@ -1,7 +1,6 @@
 {
-  "buildCommand": "cd immobilar-website && npm run build",
+  "buildCommand": "cd immobilar-website && npm install && npm run build",
   "outputDirectory": "immobilar-website/dist",
-  "installCommand": "cd immobilar-website && npm install",
   "framework": "vite",
   "rewrites": [
     {

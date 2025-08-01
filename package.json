@@ -5,10 +5,6 @@
   "private": true,
   "scripts": {
     "build": "cd immobilar-website && npm run build",
-    "dev": "cd immobilar-website && npm run dev",
-    "install": "cd immobilar-website && npm install"
-  },
-  "workspaces": [
-    "immobilar-website"
-  ]
+    "dev": "cd immobilar-website && npm run dev"
+  }
 } 
