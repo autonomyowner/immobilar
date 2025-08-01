@@ -1,0 +1,14 @@
+{
+  "name": "immobilar",
+  "version": "1.0.0",
+  "description": "Immobilar Real Estate Website",
+  "private": true,
+  "scripts": {
+    "build": "cd immobilar-website && npm run build",
+    "dev": "cd immobilar-website && npm run dev",
+    "install": "cd immobilar-website && npm install"
+  },
+  "workspaces": [
+    "immobilar-website"
+  ]
+} 

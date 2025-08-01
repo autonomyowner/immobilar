@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd immobilar-website && npm run build",
+  "outputDirectory": "immobilar-website/dist",
+  "installCommand": "cd immobilar-website && npm install",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+} 
